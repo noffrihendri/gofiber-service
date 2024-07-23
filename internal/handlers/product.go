@@ -58,15 +58,15 @@ func (p *ProductHandler) GetProductById(c *fiber.Ctx) error {
 	result, err := p.ProductUsecase.GetProductById(c.Params("id"))
 	if err != nil {
 		c.Status(http.StatusNotFound)
-		// data := map[string]interface{}{
-		// 	"responseCode":    "404",
-		// 	"responseMessage": "Product Not Found",
-		// }
-		//	return c.JSON(data)
+		data := map[string]interface{}{
+			"responseCode":    "404",
+			"responseMessage": "Product Not Found",
+		}
+		return c.JSON(data)
 	}
 	data := map[string]interface{}{
 		"responseCode":    "200",
-		"responseMessage": result.ID,
+		"responseMessage": result,
 	}
 	return c.JSON(data)
 
