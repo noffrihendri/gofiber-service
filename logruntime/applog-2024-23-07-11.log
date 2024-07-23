@@ -1,0 +1,20 @@
+2024/07/23 11:38:27 [Product Repository][Get] is executed
+2024/07/23 11:38:27 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:38:27 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed
+2024/07/23 11:40:52 [Product Repository][Get] is executed
+2024/07/23 11:40:52 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:40:52 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed
+2024/07/23 11:40:53 [Product Repository][Get] is executed
+2024/07/23 11:40:53 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:40:53 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed
+2024/07/23 11:42:55 [Product Repository][Get] is executed
+2024/07/23 11:42:55 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:42:55 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed
+2024/07/23 11:42:57 [Product Repository][Get] is executed
+2024/07/23 11:42:57 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:42:57 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed
+2024/07/23 11:43:00 [Product Repository][Get] is executed
+2024/07/23 11:53:20 [Product Repository][Get] is executed
+2024/07/23 11:53:25 [Product Repository][Get] is executed
+2024/07/23 11:53:25 Error : [Product Repository][GET] ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)
+2024/07/23 11:53:25 [ERROR: invalid input syntax for type uuid: "81e3281c-93fa-11ee-b081-38f3ab4e0ea31" (SQLSTATE 22P02)][Read] is executed

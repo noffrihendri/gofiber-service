@@ -1,0 +1,28 @@
+2024/07/23 11:53:25 panic: runtime error: invalid memory address or nil pointer dereference
+goroutine 19 [running]:
+runtime/debug.Stack()
+	c:/go/src/runtime/debug/stack.go:24 +0x65
+faber/internal/router.customRecover.func1.1()
+	D:/golang/src/fiber-clean-code/internal/router/router.go:63 +0x58
+panic({0x118b180, 0x1864030})
+	c:/go/src/runtime/panic.go:884 +0x213
+faber/internal/handlers.(*ProductHandler).GetProductById(0xc0001ff620, 0xc0003ce000)
+	D:/golang/src/fiber-clean-code/internal/handlers/product.go:69 +0xda
+github.com/gofiber/fiber/v2.(*App).next(0xc000224500, 0xc0003ce000)
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.1/router.go:145 +0x1bf
+github.com/gofiber/fiber/v2.(*Ctx).Next(0xc0003ca060?)
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.1/ctx.go:1030 +0x53
+faber/internal/router.customRecover.func1(0x1185a00?)
+	D:/golang/src/fiber-clean-code/internal/router/router.go:71 +0x6c
+github.com/gofiber/fiber/v2.(*App).next(0xc000224500, 0xc0003ce000)
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.1/router.go:145 +0x1bf
+github.com/gofiber/fiber/v2.(*App).handler(0xc000224500, 0xaf5c77?)
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.1/router.go:172 +0x87
+github.com/valyala/fasthttp.(*Server).serveConn(0xc000174600, {0x135c9f0?, 0xc000308090})
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/server.go:2359 +0x11d3
+github.com/valyala/fasthttp.(*workerPool).workerFunc(0xc00034a000, 0xc000314220)
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:224 +0xa9
+github.com/valyala/fasthttp.(*workerPool).getCh.func1()
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:196 +0x38
+created by github.com/valyala/fasthttp.(*workerPool).getCh
+	C:/Users/noffri.hendri/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:195 +0x1b0
